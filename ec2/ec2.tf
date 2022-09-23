@@ -22,6 +22,6 @@ resource "aws_instance" "web" {
     vpc_security_group_ids = [var.sg_id]
 
     tags = {
-      "Name" = "netflix-webserver"
+      "Name" = "netflix-webserver1"
     }
 }
