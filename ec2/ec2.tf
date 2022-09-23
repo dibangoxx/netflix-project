@@ -14,7 +14,7 @@
 #   }
 # }
 
-resource "aws_instance" "web" {
+resource "aws_instance" "web1" {
     instance_type = "t2.micro"
     ami = var.ami_id
     associate_public_ip_address = true
